@@ -1,0 +1,20 @@
+{
+  "name": "sportsreference_api",
+  "version": "1.0.0",
+  "description": "Creating endpoints for sports-reference's site to return various pieces of data in a JSON format",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Obog/sportsreference_api.git"
+  },
+  "author": "Joshua Obogbaimhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-Obog/sportsreference_api/issues"
+  },
+  "homepage": "https://github.com/J-Obog/sportsreference_api#readme"
+}
