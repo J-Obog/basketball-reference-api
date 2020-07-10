@@ -1,0 +1,17 @@
+/nba 
+	/teams
+		/:abb 
+			/stats
+				category -> basic/league/yoy
+				type -> team/teampg/opponent/opponentpg
+			/leaders
+				type -> season/career
+			/people
+				staff -> players/coaches/executives 
+			/honors
+				type -> asg/hof
+			/draft
+			/uniform_numbers
+			/head2head
+			/top
+			/
