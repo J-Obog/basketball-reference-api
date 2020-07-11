@@ -2,16 +2,32 @@
 	/teams
 		/:abb 
 			/stats
-				category -> basic/league/yoy
-				type -> team/teampg/opponent/opponentpg
+				p1 -> basic | league | yoy
+				p2 -> team | teampg | opponent | opponentpg
 			/leaders
-				type -> season/career
+				 p1-> season | career
 			/people
-				staff -> players/coaches/executives 
+				p1 -> players | coaches | executives 
 			/honors
-				type -> asg/hof
+				p1 -> asg | hof
 			/draft
 			/uniform_numbers
 			/head2head
 			/top
-			/
+			/:year
+				/stats
+					p1 -> team_misc | per_100_poss | play_by_play | per_game | advanced | totals | adjusted_shooting | team_and_opponents | per_36_min | shooting | on_off | splits 
+					p2 -> regular | season 
+				/schedule 
+					/results
+						p1 -> regular | playoffs 
+					/gamelog
+						p1 -> regular | playoffs 
+						p2 -> advance | basic
+				/roster
+					/players
+					/lineups
+						p1 -> 5man | 4man | 3man | 2man
+					/depth_charts
+					/starters
+						p1 -> game | lineup 
