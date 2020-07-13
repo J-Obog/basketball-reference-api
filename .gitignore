@@ -1,3 +1,4 @@
 ###Gitignore File 
-
+node_modules
+api_routes
 *.txt

@@ -1,5 +1,6 @@
 const cheerio = require("cheerio")
 
+
 module.exports.table_parser = async (data) => {
 	try { 
 		const $ = await cheerio.load(data)
