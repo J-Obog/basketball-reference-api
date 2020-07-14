@@ -1,3 +1,9 @@
-.gitignore
-/node_modules
-/api_routes
+##############
+# IGNORE ME! #
+##############
+
+# node modules 
+node_modules
+
+# route text files 
+api_routes
