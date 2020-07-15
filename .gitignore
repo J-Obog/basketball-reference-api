@@ -1,9 +1,1 @@
-##############
-# IGNORE ME! #
-##############
-
-# node modules 
 node_modules
-
-# route text files 
-api_routes
