@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Creating endpoints for sports-reference's site to return various pieces of data in a JSON format",
   "scripts": {
-    "start": "node app.js",
-    "server": "nodemon src/server.js"
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -13,14 +12,12 @@
   "author": "Joshua Obogbaimhe",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.3",
     "cors": "^2.8.5",
     "express": "^4.17.1"
   },
   "devDependencies": {
     "cheerio-tableparser": "^1.0.1",
-    "fs": "0.0.1-security",
     "module-alias": "^2.2.2",
     "nodemon": "^2.0.4"
   }
