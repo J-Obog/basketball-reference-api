@@ -2,24 +2,16 @@
   "name": "sportsreference_api",
   "version": "1.0.0",
   "description": "Creating endpoints for sports-reference's site to return various pieces of data in a JSON format",
-  "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "server": "nodemon app.js"
+    "server": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/J-Obog/sportsreference_api.git"
+    "url": "https://github.com/J-Obog/basketball-reference-api.git"
   },
   "author": "Joshua Obogbaimhe",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/J-Obog/sportsreference_api/issues"
-  },
-  "homepage": "https://github.com/J-Obog/sportsreference_api#readme",
-  "_moduleAliases": {
-    "@parsers": "./src/parsers"
-  },
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
