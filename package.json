@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Creating endpoints for sports-reference's site to return various pieces of data in a JSON format",
   "scripts": {
-    "server": "nodemon server.js"
+    "server": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   },
   "devDependencies": {
     "cheerio-tableparser": "^1.0.1",
+    "dotenv": "^10.0.0",
     "module-alias": "^2.2.2",
     "nodemon": "^2.0.4"
   }
