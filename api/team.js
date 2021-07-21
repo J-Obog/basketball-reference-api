@@ -1,6 +1,5 @@
 const { Router } = require("express");
 const router = Router({ mergeParams: true }); 
-
 //get team overview
 router.get("/", (req, res) => {
     res.sendStatus(200); 

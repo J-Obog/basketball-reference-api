@@ -4,6 +4,6 @@ const router = Router();
 const teams_router = require("./teams");
 
 //routing middleware
-router.use("/teams", teams_router); 
+router.use("/teams", teams_router);  
 
 module.exports = router;

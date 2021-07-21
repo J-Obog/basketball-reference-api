@@ -1,13 +1,12 @@
 const { Router } = require("express");
 const router = Router(); 
-const team_router = require("./team"); 
+const teamRoutes = require("./team");
+const teamsController = require("@controllers/teams");
 
 //routing for specific teams
-router.use("/:abbrev", team_router); 
+router.use("/:abbrev", teamRoutes); 
 
 //get list of NBA/ABA/BAA franchises
-router.get("/", (req, res) => {
-    res.sendStatus(200); 
-})
+router.get("/", teamsController.getAllFranchises); 
 
 module.exports = router; 
