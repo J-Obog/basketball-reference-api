@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Creating endpoints for sports-reference's site to return various pieces of data in a JSON format",
   "scripts": {
-    "server": "nodemon app.js",
+    "server": "nodemon src/",
     "test": "jest"
   },
   "repository": {
