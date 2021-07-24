@@ -4,7 +4,10 @@
   "description": "Creating endpoints for sports-reference's site to return various pieces of data in a JSON format",
   "scripts": {
     "server": "nodemon src/",
-    "test": "jest"
+    "test": "jest --verbose" 
+  },
+  "jest": {
+    "testMatch": [ "**/test/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)" ]
   },
   "repository": {
     "type": "git",
