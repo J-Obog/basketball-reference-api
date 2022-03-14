@@ -1,6 +1,6 @@
 import colorlog
 
-handler = colorlog.StreamHandler()
+handler: colorlog.StreamHandler = colorlog.StreamHandler()
 handler.setFormatter(
     colorlog.ColoredFormatter(
         fmt='%(log_color)s %(asctime)s %(levelname)s [%(name)s] -- %(message)s',
