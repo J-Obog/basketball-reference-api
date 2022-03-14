@@ -2,10 +2,13 @@ from flask import Flask
 from waitress import serve
 from dotenv import load_dotenv
 from bbref.utils.log import logger
+from bbref.api.mux import router as api_router
 import os
 
 def create_app():
     app = Flask(__name__)
+    app.register_blueprint(api_router, url_prefix='/api')
+
     return app
 
 if __name__ == '__main__':
