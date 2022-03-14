@@ -12,6 +12,7 @@ redis = "*"
 beautifulsoup4 = "*"
 python-dotenv = "*"
 waitress = "*"
+colorlog = "*"
 
 [requires]
 python_version = "3.6"
